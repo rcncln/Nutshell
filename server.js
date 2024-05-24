@@ -27,7 +27,6 @@ const createClickUpTask = async (lead) => {
     }
 };
 
-// Webhook endpoint to handle Nutshell leads
 app.post('/nutshell-webhook', async (req, res) => {
     const data = req.body;
 
